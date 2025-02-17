@@ -1,7 +1,7 @@
 name: Publish Docker image
 on:
-  push: { tags: ["*"], branches: [main, master, dev] }
-  pull_request: { branches: [main, master, dev] }
+  push: { tags: ["*"], branches: [main, master, dev, mageia] }
+  pull_request: { branches: [main, master, dev, mageia] }
 
 jobs:
   push_to_registry:
